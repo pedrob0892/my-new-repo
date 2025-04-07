@@ -11,3 +11,4 @@ if hist_button:
             st.plotly_chart(fig, use_container_width=True)
 fig = px.scatter(vehicles, x="odometer", y="price")
 fig.show()
+fig.plot()
